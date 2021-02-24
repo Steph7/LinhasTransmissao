@@ -1,5 +1,5 @@
 ---
-title: "Campos Elétricos"
+title: "Linhas de Transmissão"
 output: html_document
 ---
 
@@ -17,7 +17,7 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **Linhas de Transmissão**  
+# **Lei de Joule e Linhas de Transmissão**  
 
 **Fundamentos de Eletromagnetismo (UFMG)** 
 
@@ -25,7 +25,7 @@ output: html_document
 
 **Turma TN1 - Prof. Carlos Heitor** 
 
-Esse trabalho tem como objetivo explicar os principais conceitos relacionados à campo elétrico e ao final resolver uma exercício que engloba os conceitos discutidos e nos proporciona um entendimento, assim como uma ilustração dos comportamentos dos campos elétricos envolvendo cargas pontuais de diferentes naturezas.
+Esse trabalho tem como objetivo explicar os principais conceitos relacionados à potência elétrica, efeito Joule e linhas de transmissão. Para ilustrar, será resolvida uma questão que engloba os conceitos discutidos e nos proporciona um entendimento, prático e aplicado desses conceitos em um cenário de distribuição de energia por linhas de transmissão.
 
 Use as abas de navegação a cima, para acessar o conteúdo!
 
@@ -43,6 +43,6 @@ Use as abas de navegação a cima, para acessar o conteúdo!
 ### [](https://crumplab.github.io)
 
 <a href = "https://cds.cern.ch/record/1400571/files/CoulombsLaw.png">
-![](images/CoulombsLaw.png)
+![](images/linhas.jpg)
 </a>
 </div>

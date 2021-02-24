@@ -1,6 +1,6 @@
-name: "Campos Elétricos"
+name: "Linhas de Transmissão"
 navbar:
-  title: "Campos Elétricos"
+  title: "Linhas de Transmissão"
   left:
     - text: "O Trabalho"
       href: index.html
