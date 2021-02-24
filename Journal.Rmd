@@ -1,0 +1,224 @@
+---
+title: "Conceitos"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    #toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+O primeiro passo para entender do que se trata os Campos Elétricos, iremos definir alguns conceitos fundamentais.
+
+# Cargas elétricas 
+(Considerando cargas elétricas pontuais)
+
+<center>
+<a href = "https://images.app.goo.gl/LefCnAhMtHgMZVHCA">
+![](images/cargas-pos-neg.png)
+</a>
+</center>
+
+**O que é uma carga pontual?** 
+**Uma carga pontual gera campo elétrico?** 
+**O que difere uma carga elétrica positiva de uma carga elétrica negativa?** 
+
+Define-se carga elétrica pontual sendo um corpo eletrizado cujas dimensões são desprezíveis se comparadas às distâncias que o separam de outros corpos eletrizados.
+
+O campo elétrico de uma carga pontual terá direção radial, ou seja, como se a carga estivesse localizada no centro de um círculo de raio “r”.
+
+$~$
+
+## Natureza das cargas elétricas
+
+Cargas elétricas podem apresentar natureza positiva ou negativa.
+
+Uma das principais diferenças entre as cargas positivas e negativas são as linhas de  campos geradas por essas cargas uma vez que o sentido de F é para longe da carga pontual q se ela for positiva e na direção da carga pontual se q for negativa.
+
+Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma dessas cargas.
+
+<center>
+<a href = "https://images.app.goo.gl/vLDS4zFsL2SkEqMA6">
+![](images/cargas-eletricas.jpeg)
+</a>
+</center>
+
+$~$
+
+## Como determinar um campo elétrico?
+(a partir dessas cargas pontuais)
+
+Para determinar o campo elétrico produzido por uma distância r de uma carga pontual q, colocamos uma carga de prova qo nesse ponto.
+
+De acordo com a **Lei de Coulomb**, o módulo da força eletrostática que age sobre qo é dado por:
+
+<center> Definindo a Lei de Coulumb:  </center>
+$$
+\vec{F_e}=k_{e}{\frac {qq_{0}}{r^{2}}}\hat{\mathbf r}
+$$
+
+<center> Constante de Permissividade Elétrica: </center>
+$$
+k_e = \frac{1}{{4\pi  \varepsilon _0 }} \\
+$$
+
+<center> $k_e$ ≈ 8.988 x $10^9 N {m^2}/{C^2}$ </center>
+
+$~$
+
+# Campo  elétrico
+
+**O que é um campo elétrico?** 
+**Qual é o limite de um campo elétrico?** 
+
+Cargas elétricas modificam as propriedades elétricas do espaço à sua volta, causando um campo elétrico. Esse campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu, sendo ele uma grandeza vetorial que depende do ponto no espaço em que ela se encontra.
+
+
+$~$
+
+## Fórmula Matemática
+**Como calcular matemáticamento um campo elétrico?** 
+
+A expressão abaixo nos permite calcular a intensidade do campo elétrico, quaisquer que sejam as cargas que criam esse campo.
+
+<center> Definindo Campo Elétrico a partir de Força Elétrica:  </center>
+$$
+{\vec{E_i}}= \frac{\vec{F_e}} {q_0}
+$$
+
+Para encontrarmos o módulo do vetor campo elétrico de uma carga pontual é dado por:
+
+$$
+{\vec{E_i}}= \frac{\vec{F_e}} {q_0} = \frac{1}{q_0} \frac{1}{4\pi\varepsilon_0} \frac{qq_{0}}{r^{2}} \hat{\mathbf r} = \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
+$$
+
+$$
+{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
+$$
+$~$
+
+## Simulação
+
+Na simulação abaixo é possível adicionar cargas positivas (vermelhas) e negativas (azuis) e verificar o comportamento dos campos elétricos gerados por elas. Aplicando um sensor (ponto amarelo), é possível visualizar o vetor diretor desse campo em vários pontos da tela, conforme reposicionar o curso. Ainda é possível verificar o potencial desse campo e a distância entre as cargas, posicionando os equipamentos localizados na parte direta inferior.
+
+Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipolo elétrico!
+
+
+<iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" width="800" height="400" scrolling="no" allowfullscreen></iframe>
+
+
+$~$
+
+# Campo elétrico Total
+
+**Como o campo elétrico gerado por uma carga pontual interfere no campo elétrico gerado por uma outra carga pontual?** 
+**Qual será relação da natureza das cargas nesse sentido?** 
+
+O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, ou seja, cargas de mesma natureza ou mesmo sinal quando estão próximas tem um comportamento de repulsão entre si. Já cargas de sinais opostos estão próximas sua tendência é se aproximar ainda mais, logo o sentido do campo elétrico será para longe da carga pontual positiva e na direção da carga pontual negativa.
+
+<center>
+<a href = "https://i.stack.imgur.com/JxCq5.png">
+![](images/posit-negativ.png)
+</a>
+</center>
+
+$~$
+
+<center>
+<a href = "https://images.app.goo.gl/tnWtBjpfYN3Axf666">
+![](images/campos-dipolo.png){width=50%}
+</a>
+</center>
+
+$~$
+
+Quando colocamos uma carga prova positiva $q_0$ nas proximidades de N cargas pontuais $q_1$, $q_2$,...$q_n$, a carga de prova é submetida a uma força total $\vec{F_T}$ dada por:
+
+$$
+\vec{F_T} = \vec{F_1} + \vec{F_2} + ... + \vec{F_n}
+$$
+
+$$
+\vec{F_T} = \sum_{i}^{n}\vec{F_i}
+$$
+
+Assim, o campo elétrico total $\vec{E_T}$ na posição da carga de prova é dado por:
+
+$$
+\vec{E_T} = \frac{\vec{F_T}}{q_0} = \frac{\vec{F_1}}{q_0} + \frac{\vec{F_2}}{q_0} + ... + \frac{\vec{F_n}}{q_0}
+$$
+
+$$
+\vec{E_T} = \vec{E_1} + \vec{E_2} + ... + \vec{E_n} = \sum_{i}^{n}\vec{E_i}
+$$
+
+Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A equação mostra que o princípio de superposição se aplica aos campos elétricos.
+
+$~$
+
+# Dipolo elétrico
+
+**Campo  elétrico produzido por dipolo elétrico** 
+
+<center>
+<a href = "http://mw.concord.org/modeler/showcase/electrostatics/dipole.html">
+![](images/dipole.gif)
+</a>
+</center>
+
+$~$
+
+Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.
+
+Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo do dipolo.
+
+<center>
+<a href = "https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/">
+![](images/dipolo.png){width=60%}
+
+</a>
+</center>
+
+$~$
+
+
+## Curiosidade!
+
+A partir do código abaixo, é possível gerar vários gráficos de campos elétricos adicionando cargas alternadas e igualmente espaçadas.
+
+Para ver o resultado desses campos, siga as instruções abaixo e realize as alterações na linha 27!
+
+Instruções para aumentar o número de Cargas
+
+1. É só aumentar as Potências de 2 (linha 27)
+
+* Para uma Carga pontual -> nq = 2**0
+* Para uma Carga dipolo -> nq = 2**1
+* Para uma Carga multipolo -> nq = 2**2 
+* E assim por diante! Divirta-se!
+* E espere o gráfico ser plotado, pois demora um pouco para gerar a imagem.
+
+2. Não se esqueça de rodar o código clicando na seta (Run)
+
+<iframe src="https://trinket.io/embed/python3/9f3821c659" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
+
+$~$
+
+# Referências
+
+1. HALLIDAY, David, RESNICK, Robert, WALKER, Jearl. Fundamentos de Física - Vol. 3 - Eletromagnetismo, 10ª edição. LTC, 06/2016. VitalBook file.
+
+2. PERKINS, Kathy.PAUL, Ariel. University of Colorado Boulder. Cargas e Campos - versão 1.048. Disponível em: <https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html>. Acesso em: 05 de janeiro de 2021.
+
+3. GEEKS FOR GEEKS. Matplotlib.pyplot.streamplot() in Python. Publicado em 12/04/2020. Disponível em: <https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/>. Acesso em: 04 de janeiro de 2021.
+
+
+

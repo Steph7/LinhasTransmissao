@@ -1,0 +1,237 @@
+---
+title: "Questão"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+---
+
+Uma carga pontual $Q_1$=3μC está localizada na origem e uma carga $Q_2$=-7μC está a 0,4 m do eixo x, num sistema Cartesiano.  Determine o campo elétrico E = E(x) î em todos os pontos do eixo x. Desenhe E(x) como função de x,  e finalmente encontre em quais pontos o campo é nulo.
+
+<center>
+<a href = "https://virtual.ufmg.br/20202/mod/data/view.php?id=122660">
+![](images/Questao2.png)
+</a>
+</center>
+
+$~$
+
+# Definindo Campo elétrico (cargas pontuais)
+
+a) Determine o campo elétrico, em todos os pontos do eixo X.
+
+<center>
+![FIGURA 1](images/fig1.png)
+
+
+
+</center>
+
+$~$
+
+$$
+\vec{E(x)} = E(x) \hat{\mathbf i}
+$$
+
+Campo Elétrico de $Q_1$:
+
+$$
+{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{Q_1}{r^{2}} \hat{\mathbf r}
+$$
+
+Analisando o vetor posição $\hat{\mathbf r}$:
+Considerando qualquer ponto ao longo do Eixo X 
+
+$$
+r = x \hat{\mathbf x} \\
+r = \sqrt{x^2} = |x| \\
+\hat{\mathbf r} = \frac{r}{|r|} = \left(\frac{x}{|x|} \right) \hat{\mathbf x}
+$$
+
+ Assim: 
+
+$$
+{\vec{E_1}}=  \frac{Q_1}{{4\pi\varepsilon _0}} \frac{1}{|x|^{2}} \frac{x}{|x|} \hat{\mathbf x} 
+$$
+$$
+\vec{E_1} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x}
+$$
+
+Como o campo elétrico $\vec{E_1}$ aponta na diração x > 0 (à direita) e para x < 0 (à esquerda), isso levando em consideração que a carga $Q_1$ está localizada no ponto x = 0.
+
+
+<center>
+![FIGURA 2](images/fig2.png)
+
+
+</center>
+
+$~$
+
+
+O mesmo pode ser observado na carga $Q_2$, e portanto, definimos o campo elétrico $\vec{E_2}$ da seguinte forma:
+
+$$
+\vec{E_2} = \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
+$$
+
+A direção do campo $\vec{E_2}$ varia (no eixo X), como ilustrado na figura abaixo.
+
+<center> 
+![FIGURA 3](images/fig3.png)
+
+
+
+
+</center> 
+
+$~$
+
+# Definindo Campo elétrico TOTAL
+
+O campo elétrico total $\vec{E_{T}}$ é encontrado a partir da soma dos campos $\vec{E_1}$ e $\vec{E_2}$.
+
+$$
+\vec{E_{T}} = \vec{E_1} + \vec{E_2}
+$$
+
+Assim: 
+
+$$
+\vec{E_{T}} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x} +  \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
+$$
+Colocando a parte comum em evidência, temos: 
+
+$$
+\vec{E_{T}} = \frac{1}{{4\pi\varepsilon _0}} \left[ Q_1 \frac{x}{|x|^{3}}+  Q_2 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
+$$
+
+Como: 
+
+$$
+Q_1 = +3μC = +3 \cdot 10^{-6}C \\
+Q_2 = -7μC = -7 \cdot 10^{-6}C \\
+$$
+
+Chegamos à Equação que determinar o campo elétrico total $\vec{E_{T}}$: 
+
+$$
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \left[ 3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
+$$
+
+Conforme ilustrado na figura 4, a direção dos campos $\vec{E_{1}}$ e $\vec{E_{2}}$ se invertem em alguns momentos ao longo do Eixo X. 
+
+$~$
+
+<center>
+![FIGURA 4](images/fig4.png)
+
+
+
+
+</center> 
+
+$~$
+
+A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, $\left(-\infty < x < +\infty \right)$ redefiniremos a equação levando em conta os intervalos abaixo:
+
+$$
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left( \frac{-3}{|x|^{2}} +  \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, & \mbox{quando } -\infty < x < 0 \\ (2)\left( \frac{+3}{|x|^{2}} +   \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, & \mbox{quando } 0 < x < 0.4 \\ (3) \left( \frac{+3}{|x|^{2}} -   \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, & \mbox{quando }  0.4 < x < +\infty \end{cases}
+$$
+
+$~$
+
+# Gráficos do Campo Elétrico Total 
+
+b) Desenhe  ${E(x)}$ como função de X. 
+
+Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\pi\varepsilon _0}}$ é um número muito pequeno, e o computador pode interpretá-lo como zero, vamos arredondá-lo para 1, e assim, tornar possível a visualização gráfica do Campo elétrico. 
+
+$~$
+
+# Visualizar gráfico do campo elétrico 
+
+<iframe src="https://www.geogebra.org/graphing/jyufza6r?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe> 
+
+$~$
+
+## Para x < 0 
+
+$$
+f(x) = \frac{-3}{x^2} + \frac{7}{(x - 0.4)^2}
+$$
+
+<center>
+![FIGURA 5](images/1.png)
+</center> 
+
+$~$
+
+
+## Para 0.4 < x < 0
+
+$$
+f(x) = \frac{3}{x^2} + \frac{7}{(x - 0.4)^2}
+$$
+
+<center>
+![FIGURA 6](images/2.png)
+</center> 
+
+$~$
+
+
+
+## Para x > 0.4 
+
+$$
+f(x) = \frac{3}{x^2} - \frac{7}{(x - 0.4)^2}
+$$
+
+<center>
+![FIGURA 7](images/3.png)
+</center> 
+
+$~$
+
+
+# Pontos em que o Campo elétrico é Nulo 
+
+Para encontrar os pontos em que o Campo elétrico é nulo, temos que igual a função f(x) à zero. 
+
+Isso uma vez que ao plotarmos os gráficos das funções, já identificamos os potenciais pontos em que f(x) = 0. E ao fazermos isso, encontramos apenas um ponto que pertence ao intervalo válido conforme definido anteriormente. 
+
+É válido comentar que em um primeiro momento, podemos ter uma impressão de que era possível existir um outro ponto nulo quando x > 0.4, principalmente se levarmos em conta que os campos estão em direções opostas nesse intervarlo (como é possível ver na figura 4).
+
+Por outro lado, a mesma figura reforça a impossibilidade de existir um ponto nulo quando 0 < x < 0.4, isso em função de que nesse intervalo $\vec{E_1}$ e $\vec{E_2}$ estão na mesma direção, e portanto se somam.
+
+Esse ponto está localizando no intervalo (1), quando x < 0. 
+
+$$
+f(x) = \frac{-3}{x^2} + \frac{7}{(x - 0.4)^2} = 0
+$$
+Simplificando a equação, temos: 
+
+$$
+3\left(x-0.4\right)^2+7x^2=0
+$$
+E encontramos as seguintes raízes: 
+
+$$
+x=\frac{-2.4+\sqrt{13.44}}{8} = 0.15825 \\
+x=\frac{-2.4-\sqrt{13.44}}{8} = -0.7582
+$$
+
+Desse modo concluimos que a única raíz válida é a x = -0.7582. 
+
+$~$
+
+<center>
+<a href = "https://images.app.goo.gl/mMBJJ4nzahjAyNZM6">
+![](images/gif.gif)
+</a>
+</center> 
+
+

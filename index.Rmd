@@ -1,0 +1,48 @@
+---
+title: "Campos Elétricos"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+# **Campos Elétricos e suas componentes**  
+
+**Fundamentos de Eletromagnetismo (UFMG)** 
+
+**Semestre 2020/2** 
+
+**Turma TN1 - Prof. Carlos Heitor** 
+
+Esse trabalho tem como objetivo explicar os principais conceitos relacionados à campo elétrico e ao final resolver uma exercício que engloba os conceitos discutidos e nos proporciona um entendimento, assim como uma ilustração dos comportamentos dos campos elétricos envolvendo cargas pontuais de diferentes naturezas.
+
+Use as abas de navegação a cima, para acessar o conteúdo!
+
+## TEMA 2 - GRUPO 16
+## Integrantes:
+
+* Stephanie Ogando 
+* Paula Rodrigues 
+* Pedro Silva
+
+
+</div>
+<div class="col-sm-6">
+
+### [](https://crumplab.github.io)
+
+<a href = "https://cds.cern.ch/record/1400571/files/CoulombsLaw.png">
+![](images/CoulombsLaw.png)
+</a>
+</div>
