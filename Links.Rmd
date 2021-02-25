@@ -84,11 +84,28 @@ $~$
 
 (b) Há uma queda de voltagem, ∆V entre as duas linhas, de tal forma que a voltagem que chega ao usuário é V-∆V.  Encontre essa perda de voltagem em termos de R e a corrente I, e também em termos da potência P, e a voltagem V.  
 
-<center>
-![FIGURA 2](images/)
 
+$$
+V - \frac{I \cdot R}{2} - \frac{I \cdot R}{2} = V - \Delta V
+$$
+$$
+\frac{2 \cdot I \cdot R}{2} = \Delta V
+$$
 
-</center>
+$$
+\Delta V = I \cdot R \hspace{1cm} \therefore \hspace{1cm} I = \frac{\Delta V}{R} \hspace{0.2cm} (28)
+$$
+Isolando a equação **(21)**, em função da corrente elétrica (I):
+
+$$
+P = V \cdot I \hspace{1cm} \therefore \hspace{1cm} I = \frac{P}{V} \hspace{0.2cm} (29)
+$$
+Igualando as equações **(28)** e **(29)**, temos:
+
+$$
+\Delta V = \frac{P \cdot R}{V}
+$$
+
 
 $~$
 
