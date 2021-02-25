@@ -12,7 +12,7 @@ Uma usina elétrica transmite 200 MW de potência elétrica, a uma voltagem V nu
 
 <center>
 <a href = "https://virtual.ufmg.br/20202/pluginfile.php/445201/mod_data/intro/tema2_2.png">
-![](images/Questao2.png)
+![](images/Questao2.png){width=50%}
 </a>
 </center>
 
@@ -47,7 +47,7 @@ $~$
 
 
 
-# DEfinindo a Variação de Tensão
+# Definindo a Variação de Tensão
 
 (b) Há uma queda de voltagem, ∆V entre as duas linhas, de tal forma que a voltagem que chega ao usuário é V-∆V.  Encontre essa perda de voltagem em termos de R e a corrente I, e também em termos da potência P, e a voltagem V.  
 

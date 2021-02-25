@@ -33,7 +33,7 @@ Corrente elétrica é o fluxo coordenado das carga elétrica, na existência uma
 
 <center>
 <a href = "https://images.app.goo.gl/5V4iYn1yMsiGVPGw9">
-![](images/corrente.gif){width=50%}
+![](images/corrente.gif){width=65%}
 </a>
 </center>
 
