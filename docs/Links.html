@@ -389,12 +389,28 @@ div.tocify {
 <ol style="list-style-type: lower-alpha">
 <li>Encontre a resistência dos cabos quando a temperatura deles é de +40° C ou -40° C.</li>
 </ol>
-<center>
-<div class="figure">
-<img src="images/" alt="FIGURA 1" />
-<p class="caption">FIGURA 1</p>
-</div>
-</center>
+<p>Será utilizada a equação <strong>(16)</strong> para encontrar a resistência.</p>
+<p><span class="math display">\[
+R = \rho \cdot \frac{L}{A}  \hspace{1cm} (16)
+\]</span></p>
+<p>como, a resistividade do Alumínio é:</p>
+<ul>
+<li><span class="math inline">\(\rho_{+40ºC} = 2,88 \times 10^{-8} Ω \cdot m\)</span></li>
+<li><span class="math inline">\(\rho_{-40ºC} = 1,97 \times 10^{-8} Ω \cdot m\)</span></li>
+</ul>
+<p>Área da Seção Transversal (A):</p>
+<p>Diâmetro = 2,54 cm Raio = 1,27 cm</p>
+<p><span class="math display">\[A = \pi \cdot R^2\]</span> <span class="math display">\[ A = \pi \cdot (1.27)^2 \approx 5,06 cm^2 \]</span> Área em <span class="math inline">\(m^2 = 5,06 \cdot 10^{-4} \hspace{0.2cm} m^2\)</span></p>
+<p>Como são dois fios de comprimento L, será considerado nos cálculos que o comprimento é de 2L.</p>
+<p>Assim:</p>
+<ol style="list-style-type: decimal">
+<li><p>A +40ºC <span class="math display">\[
+R_{+40ºC} = \frac{ \left ( 2,88 \times 10^{-8} Ω \cdot m \right) \cdot \left(2 \times 5 \cdot 10^5 \hspace{0.2cm} m \right)}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = \frac{28,80 \cdot 10^{-3} Ω \cdot m^2}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = 5,69 \cdot 10 Ω = 56,9 Ω
+\]</span></p></li>
+<li><p>A -40ºC <span class="math display">\[
+R_{-40ºC} = \frac{\left (1,97 \times 10^{-8} Ω \cdot m \right) \cdot \left(2 \times 5 \cdot 10^5 \hspace{0.2cm} m \right)}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = \frac{19,70 \cdot 10^{-3} Ω \cdot m^2}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = 3,89 \cdot 10 Ω = 38,9 Ω
+\]</span></p></li>
+</ol>
 <p><span class="math inline">\(~\)</span></p>
 </div>
 <div id="definindo-a-variação-de-tensão" class="section level1">

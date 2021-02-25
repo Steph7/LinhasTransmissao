@@ -38,10 +38,43 @@ $~$
 (a) Encontre a resistência dos cabos quando a temperatura deles é de +40° C ou -40° C.  
 
 
-<center>
-![FIGURA 1](images/)
+Será utilizada a equação **(16)** para encontrar a resistência.
 
-</center>
+$$
+R = \rho \cdot \frac{L}{A}  \hspace{1cm} (16)
+$$
+
+como, a resistividade do Alumínio é:
+
+- $\rho_{+40ºC} = 2,88 \times 10^{-8} Ω \cdot m$
+- $\rho_{-40ºC} = 1,97 \times 10^{-8} Ω \cdot m$
+
+
+
+
+Área da Seção Transversal (A):
+
+Diâmetro = 2,54 cm
+Raio = 1,27 cm
+
+$$A = \pi \cdot R^2$$
+$$ A = \pi \cdot (1.27)^2 \approx 5,06 cm^2 $$
+Área em $m^2 = 5,06 \cdot 10^{-4} \hspace{0.2cm} m^2$
+
+Como são dois fios de comprimento L, será considerado nos cálculos que o comprimento é de 2L. 
+
+Assim: 
+
+(1) A +40ºC
+$$
+R_{+40ºC} = \frac{ \left ( 2,88 \times 10^{-8} Ω \cdot m \right) \cdot \left(2 \times 5 \cdot 10^5 \hspace{0.2cm} m \right)}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = \frac{28,80 \cdot 10^{-3} Ω \cdot m^2}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = 5,69 \cdot 10 Ω = 56,9 Ω
+$$
+
+(2) A -40ºC
+$$
+R_{-40ºC} = \frac{\left (1,97 \times 10^{-8} Ω \cdot m \right) \cdot \left(2 \times 5 \cdot 10^5 \hspace{0.2cm} m \right)}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = \frac{19,70 \cdot 10^{-3} Ω \cdot m^2}{5,06 \cdot 10^{-4} \hspace{0.2cm} m^2} = 3,89 \cdot 10 Ω = 38,9 Ω
+$$
+
 
 $~$
 
