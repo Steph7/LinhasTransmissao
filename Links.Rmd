@@ -103,7 +103,7 @@ $$
 Igualando as equações **(28)** e **(29)**, temos:
 
 $$
-\Delta V = \frac{P \cdot R}{V}
+\Delta V = \frac{P \cdot R}{V}  \hspace{0.2cm} (30)
 $$
 
 
@@ -115,10 +115,27 @@ $~$
 
 (c) É desejável que ∆V seja, no máximo, 2% de V.  Já que P e R são dados, qual seria a voltagem V mínima para manter ∆V abaixo de 2% de V para as duas temperaturas? 
 
+$$\Delta V =  0,02V$$
+Utilizando a equação **(30)**, temos:
 
-<center> 
-![FIGURA 3](images/)
-</center> 
+$$
+\Delta V = \frac{P \cdot R}{V} = 0,02V \hspace{0.3cm} \therefore \hspace{0.3cm} P \cdot R = 0,02 \cdot V^2 \hspace{0.3cm} \therefore \hspace{0.3cm} V^2 = \frac{P \cdot R}{0,02} \hspace{0.3cm} \therefore \hspace{0.3cm} V = \sqrt \frac{P \cdot R}{0,02} 
+$$
+
+1) A +40ºC:
+
+$$
+V_{+40ºC} = \sqrt \frac{2 \cdot 10^8 W \cdot 56,9 Ω}{0,02} = \sqrt \frac{1,14 \cdot 10^{10}}{0,02} = \sqrt (56,9 \cdot 10^{10}) =  7,54 \cdot 10^5 \hspace{0.2cm} V
+$$
+
+2) A -40ºC:
+
+$$
+V_{-40ºC} = \sqrt \frac{2 \cdot 10^8 W \cdot 38,9 Ω}{0,02} = \sqrt \frac{1,14 \cdot 10^{10}}{0,02} = \sqrt (38,9 \cdot 10^{10}) =  6,24 \cdot 10^5 \hspace{0.2cm} V
+$$
+
+
+
 
 $~$
 
@@ -126,9 +143,18 @@ $~$
 
 (d) Qual é a potência dissipada nas linhas a essas duas temperaturas?.
 
-<center>
-![FIGURA 4](images/)
-</center> 
+$$
+\Delta P = \Delta V \cdot I \hspace{0.2cm} \therefore \hspace{0.2cm} \Delta P = 0,02V \cdot I \hspace{0.2cm} \therefore \hspace{0.2cm} \Delta P = 0,02P
+$$
+$$
+\Delta P = 0,02 \cdot 2 \cdot 10^8 W = 0,04 \cdot 10^8 W = 4 \cdot 10^6 W
+$$
+Logo a potência dissipada, para ambas as temperaturas (+40ºC e -40ºC) é:
+
+$$
+\Delta P = 4MW
+$$
+
 
 $~$
 
