@@ -23,7 +23,7 @@ Dica: Para facilitar sua análise considere um circuito simples para representar
 
 <center>
 <a href = "https://virtual.ufmg.br/20202/pluginfile.php/445201/mod_data/intro/t2dica.png">
-![](images/Questao2-pt1.png){width=55%}
+![](images/Questao2-pt1.png){width=35%}
 
 </a>
 </center>
