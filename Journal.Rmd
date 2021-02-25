@@ -14,199 +14,355 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-O primeiro passo para entender do que se trata os Campos Elétricos, iremos definir alguns conceitos fundamentais.
+A fim de esclarecer e facilitar o entendimento do assunto principal deste trabalho, será feita uma breve revisão sobre resistência elétrica, tensão elétrica, corrente elétrica e Lei de Ohm.
 
-# Cargas elétricas 
-(Considerando cargas elétricas pontuais)
+# Revisão sobre eletricidade
 
-<center>
-<a href = "https://images.app.goo.gl/LefCnAhMtHgMZVHCA">
-![](images/cargas-pos-neg.png)
-</a>
-</center>
+## Tensão elétrica
 
-**O que é uma carga pontual?** 
-**Uma carga pontual gera campo elétrico?** 
-**O que difere uma carga elétrica positiva de uma carga elétrica negativa?** 
-
-Define-se carga elétrica pontual sendo um corpo eletrizado cujas dimensões são desprezíveis se comparadas às distâncias que o separam de outros corpos eletrizados.
-
-O campo elétrico de uma carga pontual terá direção radial, ou seja, como se a carga estivesse localizada no centro de um círculo de raio “r”.
+Diferença de potencial e voltagem são outras formas de falar de tenção elétrica. Tensão elétrica é a grandeza física que mede a diferença de potencial elétrico entre dois pontos
+O instrumento utilizado para medir a tensão elétrica é o voltímetro e no Sistema Internacional (SI) a unidade de medida é o volt, cujo símbolo é V.
 
 $~$
 
-## Natureza das cargas elétricas
 
-Cargas elétricas podem apresentar natureza positiva ou negativa.
+## Corrente elétrica
 
-Uma das principais diferenças entre as cargas positivas e negativas são as linhas de  campos geradas por essas cargas uma vez que o sentido de F é para longe da carga pontual q se ela for positiva e na direção da carga pontual se q for negativa.
+Corrente elétrica é o fluxo coordenado das carga elétrica, na existência uma diferença de potencial elétrico entre as extremidades. Sendo o sentido real do fluxo, contrário ao sentido da corrente elétrica (I). Assim, de acordo com o sentido convencional, as cargas vão do pólo positivo para o negativo, o que na verdade não se verifica no sentido real, como mostrado na figura abaixo.
 
-Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma dessas cargas.
+
 
 <center>
-<a href = "https://images.app.goo.gl/vLDS4zFsL2SkEqMA6">
-![](images/cargas-eletricas.jpeg)
+<a href = "https://images.app.goo.gl/5V4iYn1yMsiGVPGw9">
+![](images/corrente.gif)
 </a>
 </center>
 
 $~$
 
-## Como determinar um campo elétrico?
-(a partir dessas cargas pontuais)
+# Lei de Ohm
 
-Para determinar o campo elétrico produzido por uma distância r de uma carga pontual q, colocamos uma carga de prova qo nesse ponto.
+*Georg Simon Ohm* (1789 – 1854) foi um físico alemão que descobriu que a intensidade de corrente elétrica que atravessa certos condutores é diretamente proporcional à sua diferença de potencial (voltagem) e inversamente proporcional à sua resistência, formulando assim uma lei física conhecida como lei de Ohm.
 
-De acordo com a **Lei de Coulomb**, o módulo da força eletrostática que age sobre qo é dado por:
 
-<center> Definindo a Lei de Coulumb:  </center>
+<center> Definindo a Lei de Ohm:  </center>
 $$
-\vec{F_e}=k_{e}{\frac {qq_{0}}{r^{2}}}\hat{\mathbf r}
+I=\frac {V}{R}
 $$
+onde:
 
-<center> Constante de Permissividade Elétrica: </center>
-$$
-k_e = \frac{1}{{4\pi  \varepsilon _0 }} \\
-$$
+- I = Corrente elétrica
+- V = Diferença de potencial
+- R = Resistência
 
-<center> $k_e$ ≈ 8.988 x $10^9 N {m^2}/{C^2}$ </center>
 
 $~$
 
-# Campo  elétrico
 
-**O que é um campo elétrico?** 
-**Qual é o limite de um campo elétrico?** 
+## Fórmula Matemática
+**Como calcular a corrente elétrica (demonstração da fórmula)?** 
 
-Cargas elétricas modificam as propriedades elétricas do espaço à sua volta, causando um campo elétrico. Esse campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu, sendo ele uma grandeza vetorial que depende do ponto no espaço em que ela se encontra.
+A corrente elétrica (i) por unidade de área transversal (A) define o módulo do vetor densidade de corrente (J).
+
+
+$$
+J = \frac{I}{A} \hspace{1cm} (1)
+$$
+
+Já a corrente elétrica é definida como o fluxo total das cargas (Q) por unidade de tempo (Δt). Sendo basicamente expressa como: 
+
+$$
+I = \frac{Q}{\Delta t} \hspace{1cm} (2)
+$$
+A condutividade (σ) é dada pela razão entre a densidade de corrente (J) e o campo elétrico (E), tal que: 
+
+$$
+\sigma = \frac{J}{E} \hspace{1cm} (3)
+$$
+
+Ainda mais, a condutividade (σ) também pode ser expressa como: 
+
+$$
+\sigma = \frac {n \cdot e^2 \tau}{m} \hspace{1cm} (4)
+$$
+
+
+
+Considere o segmento de um fio condutor de comprimento (L), seção transversal (A), com uma corrente (I) e densidade de corrente (J). Um esboço pode ser visto na Figura abaixo. 
+
+
+<center>
+<a href = "https://images.app.goo.gl/dpdEApG8DsHgQvaR8">
+![](images/lei-ohm.jpeg)
+</a>
+</center>
+
+
+Para um campo elétrico invariável, temos as equações **(1)** e **(2)** previamente formuladas acima. 
+ 
+
+Definindo: $Q = n \cdot e \cdot Vol$
+Em que:
+
+- Q = quantidade de cargas
+- n = Densidade de elétrons livres
+- e = valor da carga elementar dos elétrons
+- Vol = o volume do fio
+
+A partir disso, temos: 
+
+$$
+I = n \cdot e \cdot \frac{Vol}{\Delta t} \hspace{1cm} (5)
+$$
+Em que:
+
+- I é a corrente elétrica
+- Número de elétrons
+- e é o valor da carga elementar dos elétrons
+- Vol é o volume do fio
+- $\Delta t$ é a variação do tempo 
+
+
+Podemos reescrever o quociente do volume pelo tempo por um produto entre a área da seção transversal do fio (A) e a velocidade (v) média dos elétrons. Tal que: 
+
+$$
+I = n \cdot e \cdot A \cdot v \hspace{1cm} (6)
+$$
+Uma vez que os elétrons estão em constante colisão com os íons, se torna necessária a definição de uma velocidade média. E pela segunda Lei de Newton temos:
+
+$$
+F = m \cdot a \hspace{1cm} (7)
+$$
+onde:
+
+- F é força (em Netwons)
+- m é massa
+- a é aceleração
+
+Analogamente, se tratando de força elétrica, podemos reescrever como $F = e \cdot E$. Onde:
+
+- F = Força elétrica
+- E= Campo elétrico
+- e= carga elementar
+
+Já a aceleração pode ser escrita como sendo $a=v/\tau$, em que $\tau$ é o tempo médio entre as colisões. 
+
+Dessa forma, isolando a velocidade, temos: 
+
+$$
+v = \tau \cdot \frac{e \cdot E}{m} \hspace{1cm} (8)
+$$
+Então substituímos v na equação **(6)**, vem que:
+
+$$
+I = n \cdot e \cdot A \cdot  \left( \tau \cdot \frac{e \cdot E}{m} \right) \hspace{1cm} (9)
+$$
+
+Podemos substituir I na equação **(1)**, teremos: 
+
+$$
+J = \frac {n \cdot e \cdot A \cdot  \left( \tau \cdot \frac{e \cdot E}{m} \right)}{A}
+$$
+
+$$
+J = \frac {n \cdot e^2 \tau}{m} \cdot E \hspace{1cm} (10)
+$$
+Podemos substituir a condutividade (σ) definida na equação **(4)**, ficamos com:
+
+$$
+J = \sigma \cdot E \hspace{1cm} (11)
+$$
+Finalmente, podemos reescrever essa equação de uma maneira mais conhecida: a famosa 1ª Lei de Ohm, temos: 
+$$
+U = R \cdot I \hspace{1cm} (12)
+$$
+onde:
+
+- U é a diferença de potencial elétrico [medida em V (volts)]
+- R é a resistênica [medida em Ω (ohm)]
+- I é a corrente elétrica [medida em Àmpere (A)]
+
+
+$~$
+
+# Resistência Elétrica
+
+A resistência elétrica pode ser definida como a capacidade que um corpo tem de opor-se à passagem da corrente elétrica. A unidade de medida da resistência no SI é o Ohm (Ω), sendo que representa a razão de volt/Ampére. Sendo os fatores que interferem no valor da resistência de um fio é:
+
+- comprimento do condutor
+- área da seção do condutor
+- resistividade elétrica do condutor
+
+$~$
+
+
+## Fórmula Matemática
+**Como calcular matemáticamente a resistência elétrica?**
+
+Olhando a equação **(11)**, podemos substituir em J a equação **(1)**. Além disso, novamente, como o fio condutor em questão possui um campo constante ao longo do tempo, então o campo elétrico (E) será igual à tensão (U) dividida pelo comprimento do fio condutor (L). Isolando a corrente, fica: 
+
+$$
+I = \frac{\sigma \cdot A \cdot U}{L} 
+$$
+
+$$
+\frac {I}{U} = \frac{\sigma \cdot A}{L} \hspace{1cm} (13)
+$$
+
+Na equação **(12)**, podemos dividir (U) em ambos os lados da igualdade, dessa forma teremos que $\frac{I}{U} = \frac{1}{R}$. Assim, podemos substituir na equação acima, tal que: 
+
+$$
+\frac {1}{R} = \frac{\sigma \cdot A}{L} \hspace{1cm} (14)
+$$
+
+Se definirmos a condutividade (σ) como sendo igual ao inverso da resistividade (ρ), teremos que:
+
+$$
+\frac {1}{R} = \frac{ \frac{1}{\rho} \cdot A}{L} \hspace{1cm} (15)
+$$
+
+Finalmente, ao isolarmos a resistência (R), chegaremos na 2ª Lei de Ohm, dada por: 
+
+$$
+R = \rho \cdot \frac{L}{A}  \hspace{1cm} (16)
+$$
+
+$^~$
+
+
+# Potência Elétrica 
+
+**O que é um Potência Elétrica?**  
+
+A potência elétrica dispersada por um condutor pode ser conceituada como a quantidade de energia que transita por ele numa quantidade de tempo. 
+
+No sistema internacional de medidas, a unidade de potência é o watt(W). Foi uma homenagem ao matemático James Watts, posto que ele melhorou a máquina à vapor. 
+
+A potência determina o quanto de energia elétrica se transformou em outra energia, dentro de uma dada unidade de tempo. O exemplo clássico é quanto à potência de uma lâmpada. Se ela em um segundo transformar cem joule de eletricidade em energia luminosa, significa que sua potência elétrica de 100 W. 
 
 
 $~$
 
 ## Fórmula Matemática
-**Como calcular matemáticamento um campo elétrico?** 
-
-A expressão abaixo nos permite calcular a intensidade do campo elétrico, quaisquer que sejam as cargas que criam esse campo.
-
-<center> Definindo Campo Elétrico a partir de Força Elétrica:  </center>
-$$
-{\vec{E_i}}= \frac{\vec{F_e}} {q_0}
-$$
-
-Para encontrarmos o módulo do vetor campo elétrico de uma carga pontual é dado por:
+**Como calcular matemáticamento a potência elétrica?** 
+A energia entre dois pontos de um condutor é igual ao trabalho realizado pelas cargas elétricas entre estes dois pontos, ou seja:
 
 $$
-{\vec{E_i}}= \frac{\vec{F_e}} {q_0} = \frac{1}{q_0} \frac{1}{4\pi\varepsilon_0} \frac{qq_{0}}{r^{2}} \hat{\mathbf r} = \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
+E_{el} = \Delta q \cdot V  \hspace{1cm} (17)
 $$
+onde:
+
+- $E_{el}$ = Energia Elétrica
+- $\Delta q$ = Variação de carga elétrica
+- V = Diferença de potencial, tensão elétrica
+
+
+Pela definição vimos que potência elétrica é energia por tempo, a potência elétrica é energia elétrica por tempo:
+
 
 $$
-{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
+P = \frac{E_{el}}{\Delta t} \hspace{1cm} (18)
+$$
+Substituindo **(17)** em **(18)**, temos: 
+
+$$
+P = \frac{\Delta q \cdot V}{\Delta t} \hspace{1cm} (19)
+$$
+Mas, sabemos que Δq/Δt define outra grandeza física, a corrente elétrica: 
+
+$$
+I = \frac{\Delta q}{\Delta t} \hspace{1cm} (20)
+$$
+Substituindo **(20)** em **(19)**, temos: 
+
+$$
+P = V \cdot I \hspace{1cm} (21)
+$$
+
+E esta é a equação mais utilizada para potência elétrica. 
+
+Mas para calcular a potência elétrica dissipada em resistores, deve-se utilizar a primeira Lei de Ohm. 
+
+
+$$
+I = \frac{V}{R} \hspace{0.3cm} (22) \hspace{1cm}  \therefore \hspace{1cm} V = R \cdot I \hspace{0.3cm} (23)
+$$
+
+Aplicando a equação de potência elétrica e a equação da Primeira Lei de Ohm, temos duas equações para a potência elétrica dissipada em um resistor: 
+
+Substituindo **(22)** em **(21)**, temos: 
+
+$$
+P = V \cdot \left ( \frac{V}{R} \right ) \hspace{0.4cm} \therefore \hspace{0.4cm} P = \frac{V^2}{R} \hspace{0.4cm} (24)
+$$
+
+Substituindo **(23)** em **(21)**, temos: 
+
+$$
+P =  \left ( R \cdot I\right ) \cdot I \hspace{0.4cm} \therefore \hspace{0.4cm} P = R \cdot I^2 \hspace{0.4cm} (25)
+$$
+
+$$~$$
+
+
+# Lei de Joule
+
+Lei da física que estabelece a relação entre a corrente elétrica que percorre um condutor em determinado espaço de tempo e o calor por ele produzido. O seu nome deve-se aos estudos realizados por James Prescott Joule publicados em 1841 no *"Philosophical Magazine"*. 
+
+Os portadores de carga livres no seu movimento sofrem colisões com os átomos da rede cristalina dos materiais, dissipando energia (W) na forma de energia térmica, de que resulta o aumento de temperatura dos componentes e condutores. O aumento de temperatura traduz-se num fluxo de energia térmica do componente/condutor para a sua vizinhança: Efeito de Joule. 
+
+
+<center>
+<a href = "">
+![]()
+</a>
+</center>
+
+A energia dissipada na resistência (resistor) (R) por uma corrente elétrica é diretamente proporcional à tensão(U) aplicada, à corrente elétrica (I) resultante e ao intervalo de tempo(Δt) durante o qual se dá a passagem da corrente.
+
+$~$
+
+
+## Fórmula Matemática
+**Como calcular matemáticamente a Lei de Joule?**
+
+O Resistor transforma a energia elétrica em energia térmica, ou seja, a potência elétrica consumida por um resistor é dissipada. Dada pela equação **(25)**.
+
+A energia elétrica transformada em energia térmica ao fim de um intervalo de tempo Δt é dado por: 
+
+$$
+E_{el} = P \cdot \Delta t \hspace{1cm} (26)
+$$
+
+Agora, substituindo **(26)** em **(25)** temos a equação que representa a Lei de Joule:
+
+
+$$
+E_{el} = R \cdot I^2 \cdot \Delta t \hspace{1cm} (27)
 $$
 $~$
 
+
+# Linhas de Transmissão 
+
+Linha de transmissão é um sistema utilizado para transmissão de energia. Guiada de uma fonte geradora para uma carga consumidora, podendo ser uma guia de onda, um cabo coaxial ou fios paralelos ou torcidos, sendo a forma mais utilizada para o transporte de energia elétrica que é uma transmissão de alta potência, geralmente usando corrente alternada. 
+
+$~$
+
+<center>
+<a href = "https://images.app.goo.gl/f42MW5bQs8S96SdG6">
+![](images/linhas-transmissao.gif){width=50%}
+</a>
+</center>
+
+
+
+
 ## Simulação
-
-Na simulação abaixo é possível adicionar cargas positivas (vermelhas) e negativas (azuis) e verificar o comportamento dos campos elétricos gerados por elas. Aplicando um sensor (ponto amarelo), é possível visualizar o vetor diretor desse campo em vários pontos da tela, conforme reposicionar o curso. Ainda é possível verificar o potencial desse campo e a distância entre as cargas, posicionando os equipamentos localizados na parte direta inferior.
-
-Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipolo elétrico!
 
 
 <iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html" width="800" height="400" scrolling="no" allowfullscreen></iframe>
 
-
-$~$
-
-# Campo elétrico Total
-
-**Como o campo elétrico gerado por uma carga pontual interfere no campo elétrico gerado por uma outra carga pontual?** 
-**Qual será relação da natureza das cargas nesse sentido?** 
-
-O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, ou seja, cargas de mesma natureza ou mesmo sinal quando estão próximas tem um comportamento de repulsão entre si. Já cargas de sinais opostos estão próximas sua tendência é se aproximar ainda mais, logo o sentido do campo elétrico será para longe da carga pontual positiva e na direção da carga pontual negativa.
-
-<center>
-<a href = "https://i.stack.imgur.com/JxCq5.png">
-![](images/posit-negativ.png)
-</a>
-</center>
-
-$~$
-
-<center>
-<a href = "https://images.app.goo.gl/tnWtBjpfYN3Axf666">
-![](images/campos-dipolo.png){width=50%}
-</a>
-</center>
-
-$~$
-
-Quando colocamos uma carga prova positiva $q_0$ nas proximidades de N cargas pontuais $q_1$, $q_2$,...$q_n$, a carga de prova é submetida a uma força total $\vec{F_T}$ dada por:
-
-$$
-\vec{F_T} = \vec{F_1} + \vec{F_2} + ... + \vec{F_n}
-$$
-
-$$
-\vec{F_T} = \sum_{i}^{n}\vec{F_i}
-$$
-
-Assim, o campo elétrico total $\vec{E_T}$ na posição da carga de prova é dado por:
-
-$$
-\vec{E_T} = \frac{\vec{F_T}}{q_0} = \frac{\vec{F_1}}{q_0} + \frac{\vec{F_2}}{q_0} + ... + \frac{\vec{F_n}}{q_0}
-$$
-
-$$
-\vec{E_T} = \vec{E_1} + \vec{E_2} + ... + \vec{E_n} = \sum_{i}^{n}\vec{E_i}
-$$
-
-Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A equação mostra que o princípio de superposição se aplica aos campos elétricos.
-
-$~$
-
-# Dipolo elétrico
-
-**Campo  elétrico produzido por dipolo elétrico** 
-
-<center>
-<a href = "http://mw.concord.org/modeler/showcase/electrostatics/dipole.html">
-![](images/dipole.gif)
-</a>
-</center>
-
-$~$
-
-Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.
-
-Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo do dipolo.
-
-<center>
-<a href = "https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/">
-![](images/dipolo.png){width=60%}
-
-</a>
-</center>
-
-$~$
-
-
-## Curiosidade!
-
-A partir do código abaixo, é possível gerar vários gráficos de campos elétricos adicionando cargas alternadas e igualmente espaçadas.
-
-Para ver o resultado desses campos, siga as instruções abaixo e realize as alterações na linha 27!
-
-Instruções para aumentar o número de Cargas
-
-1. É só aumentar as Potências de 2 (linha 27)
-
-* Para uma Carga pontual -> nq = 2**0
-* Para uma Carga dipolo -> nq = 2**1
-* Para uma Carga multipolo -> nq = 2**2 
-* E assim por diante! Divirta-se!
-* E espere o gráfico ser plotado, pois demora um pouco para gerar a imagem.
-
-2. Não se esqueça de rodar o código clicando na seta (Run)
-
-<iframe src="https://trinket.io/embed/python3/9f3821c659" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 
