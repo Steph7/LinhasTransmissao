@@ -16,9 +16,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 A fim de esclarecer e facilitar o entendimento do assunto principal deste trabalho, será feita uma breve revisão sobre resistência elétrica, tensão elétrica, corrente elétrica e Lei de Ohm.
 
-# Revisão sobre eletricidade
 
-## Tensão elétrica
+# Tensão elétrica
 
 Diferença de potencial e voltagem são outras formas de falar de tenção elétrica. Tensão elétrica é a grandeza física que mede a diferença de potencial elétrico entre dois pontos
 O instrumento utilizado para medir a tensão elétrica é o voltímetro e no Sistema Internacional (SI) a unidade de medida é o volt, cujo símbolo é V.
@@ -26,7 +25,7 @@ O instrumento utilizado para medir a tensão elétrica é o voltímetro e no Sis
 $~$
 
 
-## Corrente elétrica
+# Corrente elétrica
 
 Corrente elétrica é o fluxo coordenado das carga elétrica, na existência uma diferença de potencial elétrico entre as extremidades. Sendo o sentido real do fluxo, contrário ao sentido da corrente elétrica (I). Assim, de acordo com o sentido convencional, as cargas vão do pólo positivo para o negativo, o que na verdade não se verifica no sentido real, como mostrado na figura abaixo.
 
@@ -34,7 +33,7 @@ Corrente elétrica é o fluxo coordenado das carga elétrica, na existência uma
 
 <center>
 <a href = "https://images.app.goo.gl/5V4iYn1yMsiGVPGw9">
-![](images/corrente.gif)
+![](images/corrente.gif){width=50%}
 </a>
 </center>
 
@@ -351,7 +350,7 @@ $~$
 
 <center>
 <a href = "https://images.app.goo.gl/f42MW5bQs8S96SdG6">
-![](images/linhas-transmissao.gif){width=50%}
+![](images/linhas-transmissao.gif){width=25%}
 </a>
 </center>
 
