@@ -373,166 +373,62 @@ div.tocify {
 </div>
 
 
-<p>Uma carga pontual <span class="math inline">\(Q_1\)</span>=3μC está localizada na origem e uma carga <span class="math inline">\(Q_2\)</span>=-7μC está a 0,4 m do eixo x, num sistema Cartesiano. Determine o campo elétrico E = E(x) î em todos os pontos do eixo x. Desenhe E(x) como função de x, e finalmente encontre em quais pontos o campo é nulo.</p>
+<p>Uma usina elétrica transmite 200 MW de potência elétrica, a uma voltagem V numa distância L=500 km. As linhas de transmissão são cabos de alumínio de 2,54 cm de diâmetro.</p>
 <center>
-<a href = "https://virtual.ufmg.br/20202/mod/data/view.php?id=122660"> <img src="images/Questao2.PNG" /> </a>
+<a href = "https://virtual.ufmg.br/20202/pluginfile.php/445201/mod_data/intro/tema2_2.png"> <img src="images/Questao2.PNG" /> </a>
 </center>
 <p><span class="math inline">\(~\)</span></p>
-<div id="definindo-campo-elétrico-cargas-pontuais" class="section level1">
-<h1>Definindo Campo elétrico (cargas pontuais)</h1>
+<p>Dica: Para facilitar sua análise considere um circuito simples para representar o sistema de transmissão. Encontrando a voltagem nos pontos lhe ajudará encontrar ∆V. As resistividades do alumínio a +40 e -40°C são, 2.88x10-8 e 1.97x10-8Ω m, respectivamente.</p>
+<center>
+<p><a href = "https://virtual.ufmg.br/20202/pluginfile.php/445201/mod_data/intro/t2dica.png"> <img src="images/Questao2-pt1.png" /></p>
+</a>
+</center>
+<p><span class="math inline">\(~\)</span></p>
+<div id="definindo-a-resistência" class="section level1">
+<h1>Definindo a Resistência</h1>
 <ol style="list-style-type: lower-alpha">
-<li>Determine o campo elétrico, em todos os pontos do eixo X.</li>
+<li>Encontre a resistência dos cabos quando a temperatura deles é de +40° C ou -40° C.</li>
 </ol>
 <center>
 <div class="figure">
-<img src="images/fig1.png" alt="FIGURA 1" />
+<img src="images/" alt="FIGURA 1" />
 <p class="caption">FIGURA 1</p>
 </div>
 </center>
 <p><span class="math inline">\(~\)</span></p>
-<p><span class="math display">\[
-\vec{E(x)} = E(x) \hat{\mathbf i}
-\]</span></p>
-<p>Campo Elétrico de <span class="math inline">\(Q_1\)</span>:</p>
-<p><span class="math display">\[
-{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{Q_1}{r^{2}} \hat{\mathbf r}
-\]</span></p>
-<p>Analisando o vetor posição <span class="math inline">\(\hat{\mathbf r}\)</span>: Considerando qualquer ponto ao longo do Eixo X</p>
-<p><span class="math display">\[
-r = x \hat{\mathbf x} \\
-r = \sqrt{x^2} = |x| \\
-\hat{\mathbf r} = \frac{r}{|r|} = \left(\frac{x}{|x|} \right) \hat{\mathbf x}
-\]</span></p>
-<p>Assim:</p>
-<p><span class="math display">\[
-{\vec{E_1}}=  \frac{Q_1}{{4\pi\varepsilon _0}} \frac{1}{|x|^{2}} \frac{x}{|x|} \hat{\mathbf x} 
-\]</span> <span class="math display">\[
-\vec{E_1} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x}
-\]</span></p>
-<p>Como o campo elétrico <span class="math inline">\(\vec{E_1}\)</span> aponta na diração x &gt; 0 (à direita) e para x &lt; 0 (à esquerda), isso levando em consideração que a carga <span class="math inline">\(Q_1\)</span> está localizada no ponto x = 0.</p>
+</div>
+<div id="definindo-a-variação-de-tensão" class="section level1">
+<h1>DEfinindo a Variação de Tensão</h1>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Há uma queda de voltagem, ∆V entre as duas linhas, de tal forma que a voltagem que chega ao usuário é V-∆V. Encontre essa perda de voltagem em termos de R e a corrente I, e também em termos da potência P, e a voltagem V.</li>
+</ol>
 <center>
 <div class="figure">
-<img src="images/fig2.png" alt="FIGURA 2" />
+<img src="images/" alt="FIGURA 2" />
 <p class="caption">FIGURA 2</p>
 </div>
 </center>
 <p><span class="math inline">\(~\)</span></p>
-<p>O mesmo pode ser observado na carga <span class="math inline">\(Q_2\)</span>, e portanto, definimos o campo elétrico <span class="math inline">\(\vec{E_2}\)</span> da seguinte forma:</p>
-<p><span class="math display">\[
-\vec{E_2} = \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
-\]</span></p>
-<p>A direção do campo <span class="math inline">\(\vec{E_2}\)</span> varia (no eixo X), como ilustrado na figura abaixo.</p>
-<center>
-<div class="figure">
-<img src="images/fig3.png" alt="FIGURA 3" />
-<p class="caption">FIGURA 3</p>
 </div>
-</center>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-<div id="definindo-campo-elétrico-total" class="section level1">
-<h1>Definindo Campo elétrico TOTAL</h1>
-<p>O campo elétrico total <span class="math inline">\(\vec{E_{T}}\)</span> é encontrado a partir da soma dos campos <span class="math inline">\(\vec{E_1}\)</span> e <span class="math inline">\(\vec{E_2}\)</span>.</p>
-<p><span class="math display">\[
-\vec{E_{T}} = \vec{E_1} + \vec{E_2}
-\]</span></p>
-<p>Assim:</p>
-<p><span class="math display">\[
-\vec{E_{T}} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x} +  \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
-\]</span> Colocando a parte comum em evidência, temos:</p>
-<p><span class="math display">\[
-\vec{E_{T}} = \frac{1}{{4\pi\varepsilon _0}} \left[ Q_1 \frac{x}{|x|^{3}}+  Q_2 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
-\]</span></p>
-<p>Como:</p>
-<p><span class="math display">\[
-Q_1 = +3μC = +3 \cdot 10^{-6}C \\
-Q_2 = -7μC = -7 \cdot 10^{-6}C \\
-\]</span></p>
-<p>Chegamos à Equação que determinar o campo elétrico total <span class="math inline">\(\vec{E_{T}}\)</span>:</p>
-<p><span class="math display">\[
-\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \left[ 3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
-\]</span></p>
-<p>Conforme ilustrado na figura 4, a direção dos campos <span class="math inline">\(\vec{E_{1}}\)</span> e <span class="math inline">\(\vec{E_{2}}\)</span> se invertem em alguns momentos ao longo do Eixo X.</p>
-<p><span class="math inline">\(~\)</span></p>
-<center>
-<div class="figure">
-<img src="images/fig4.png" alt="FIGURA 4" />
-<p class="caption">FIGURA 4</p>
-</div>
-</center>
-<p><span class="math inline">\(~\)</span></p>
-<p>A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, <span class="math inline">\(\left(-\infty &lt; x &lt; +\infty \right)\)</span> redefiniremos a equação levando em conta os intervalos abaixo:</p>
-<p><span class="math display">\[
-\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left( \frac{-3}{|x|^{2}} +  \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, &amp; \mbox{quando } -\infty &lt; x &lt; 0 \\ (2)\left( \frac{+3}{|x|^{2}} +   \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, &amp; \mbox{quando } 0 &lt; x &lt; 0.4 \\ (3) \left( \frac{+3}{|x|^{2}} -   \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, &amp; \mbox{quando }  0.4 &lt; x &lt; +\infty \end{cases}
-\]</span></p>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-<div id="gráficos-do-campo-elétrico-total" class="section level1">
-<h1>Gráficos do Campo Elétrico Total</h1>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Desenhe <span class="math inline">\({E(x)}\)</span> como função de X.</li>
+<div id="tensão-mínima" class="section level1">
+<h1>Tensão Mínima</h1>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>É desejável que ∆V seja, no máximo, 2% de V. Já que P e R são dados, qual seria a voltagem V mínima para manter ∆V abaixo de 2% de V para as duas temperaturas?</li>
 </ol>
-<p>Com o objetivo de evitar erros de arredondamento, visto que <span class="math inline">\(\frac{10^{-6}}{{4\pi\varepsilon _0}}\)</span> é um número muito pequeno, e o computador pode interpretá-lo como zero, vamos arredondá-lo para 1, e assim, tornar possível a visualização gráfica do Campo elétrico.</p>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-<div id="visualizar-gráfico-do-campo-elétrico" class="section level1">
-<h1>Visualizar gráfico do campo elétrico</h1>
-<iframe src="https://www.geogebra.org/graphing/jyufza6r?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0">
-</iframe>
-<p><span class="math inline">\(~\)</span></p>
-<div id="para-x-0" class="section level2">
-<h2>Para x &lt; 0</h2>
-<p><span class="math display">\[
-f(x) = \frac{-3}{x^2} + \frac{7}{(x - 0.4)^2}
-\]</span></p>
 <center>
-<img src="images/1.png" alt="FIGURA 5" />
+<img src="images/" alt="FIGURA 3" />
 </center>
 <p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="para-0.4-x-0" class="section level2">
-<h2>Para 0.4 &lt; x &lt; 0</h2>
-<p><span class="math display">\[
-f(x) = \frac{3}{x^2} + \frac{7}{(x - 0.4)^2}
-\]</span></p>
+<div id="potência-dissipada" class="section level1">
+<h1>Potência Dissipada</h1>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Qual é a potência dissipada nas linhas a essas duas temperaturas?.</li>
+</ol>
 <center>
-<img src="images/2.png" alt="FIGURA 6" />
+<img src="images/" alt="FIGURA 4" />
 </center>
 <p><span class="math inline">\(~\)</span></p>
-</div>
-<div id="para-x-0.4" class="section level2">
-<h2>Para x &gt; 0.4</h2>
-<p><span class="math display">\[
-f(x) = \frac{3}{x^2} - \frac{7}{(x - 0.4)^2}
-\]</span></p>
-<center>
-<img src="images/3.png" alt="FIGURA 7" />
-</center>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-</div>
-<div id="pontos-em-que-o-campo-elétrico-é-nulo" class="section level1">
-<h1>Pontos em que o Campo elétrico é Nulo</h1>
-<p>Para encontrar os pontos em que o Campo elétrico é nulo, temos que igual a função f(x) à zero.</p>
-<p>Isso uma vez que ao plotarmos os gráficos das funções, já identificamos os potenciais pontos em que f(x) = 0. E ao fazermos isso, encontramos apenas um ponto que pertence ao intervalo válido conforme definido anteriormente.</p>
-<p>É válido comentar que em um primeiro momento, podemos ter uma impressão de que era possível existir um outro ponto nulo quando x &gt; 0.4, principalmente se levarmos em conta que os campos estão em direções opostas nesse intervarlo (como é possível ver na figura 4).</p>
-<p>Por outro lado, a mesma figura reforça a impossibilidade de existir um ponto nulo quando 0 &lt; x &lt; 0.4, isso em função de que nesse intervalo <span class="math inline">\(\vec{E_1}\)</span> e <span class="math inline">\(\vec{E_2}\)</span> estão na mesma direção, e portanto se somam.</p>
-<p>Esse ponto está localizando no intervalo (1), quando x &lt; 0.</p>
-<p><span class="math display">\[
-f(x) = \frac{-3}{x^2} + \frac{7}{(x - 0.4)^2} = 0
-\]</span> Simplificando a equação, temos:</p>
-<p><span class="math display">\[
-3\left(x-0.4\right)^2+7x^2=0
-\]</span> E encontramos as seguintes raízes:</p>
-<p><span class="math display">\[
-x=\frac{-2.4+\sqrt{13.44}}{8} = 0.15825 \\
-x=\frac{-2.4-\sqrt{13.44}}{8} = -0.7582
-\]</span></p>
-<p>Desse modo concluimos que a única raíz válida é a x = -0.7582.</p>
-<p><span class="math inline">\(~\)</span></p>
-<center>
-<a href = "https://images.app.goo.gl/mMBJJ4nzahjAyNZM6"> <img src="images/gif.gif" /> </a>
-</center>
 </div>
 
 

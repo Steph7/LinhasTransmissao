@@ -92,10 +92,11 @@ Considere o segmento de um fio condutor de comprimento (L), seção transversal 
 
 <center>
 <a href = "https://images.app.goo.gl/dpdEApG8DsHgQvaR8">
-![](images/lei-ohm.jpeg)
+![](images/lei-ohm.jpeg){width=85%}
 </a>
 </center>
 
+$~$
 
 Para um campo elétrico invariável, temos as equações **(1)** e **(2)** previamente formuladas acima. 
  
@@ -371,9 +372,17 @@ $~$
 
 1. HALLIDAY, David, RESNICK, Robert, WALKER, Jearl. Fundamentos de Física - Vol. 3 - Eletromagnetismo, 10ª edição. LTC, 06/2016. VitalBook file.
 
-2. PERKINS, Kathy.PAUL, Ariel. University of Colorado Boulder. Cargas e Campos - versão 1.048. Disponível em: <https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_pt_BR.html>. Acesso em: 05 de janeiro de 2021.
+2. YOUNG, Hugh; FREEDMAN, Roger - Física 3 - Eletromagnetismo. 14ª Edição 
 
-3. GEEKS FOR GEEKS. Matplotlib.pyplot.streamplot() in Python. Publicado em 12/04/2020. Disponível em: <https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/>. Acesso em: 04 de janeiro de 2021.
+3. EFEITO JOULE. "O que é o Efeito Joule? Fórmula e Experimento". Publicado em Abril de 2008. Disponível em: <https://efeitojoule.com/2008/04/efeito-joule/>. Acesso em: 23 de fevereiro de 2021.
+
+4. EFEITO JOULE. "Potência Elétrica". Publicado em Junho de 2010. Disponível em: <https://efeitojoule.com/2010/06/potencia-eletrica-potencia-eletrica/>. Acesso em: 23 de fevereiro de 2021.
+
+5. ARQUIVOS DE FÍSICA DA UFJF. "A Lei de Ohm e a Lei das malhas". Publicado em Outubro de 2013. Disponível em:< https://www.ufjf.br/fisica/files/2013/10/FIII-05-02-A-lei-de-Ohm-e-a-lei-das-malhas.pdf/> Acesso em: 24 de fevereiro de 2021.
+
+
+6. ENSINO DE FÍSICA ONLINE - USP. Disponível em: <http://efisica.if.usp.br/eletricidade/basico/termo/intro/> Acesso em: 20 de fevereiro de 2021. 
+
 
 
 
