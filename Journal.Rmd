@@ -92,7 +92,7 @@ Considere o segmento de um fio condutor de comprimento (L), seção transversal 
 
 <center>
 <a href = "https://images.app.goo.gl/dpdEApG8DsHgQvaR8">
-![](images/lei-ohm.jpeg){width=85%}
+![](images/lei-ohm.jpeg){width=65%}
 </a>
 </center>
 
