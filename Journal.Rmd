@@ -227,6 +227,12 @@ $$
 R = \rho \cdot \frac{L}{A}  \hspace{1cm} (16)
 $$
 
+## Simulação
+
+Na simulação a seguir é possível visualizar a variação da Resistência em relação as demais variáveis envolvidas na equação **(16)**, $\rho$ resistividade, L comprimento, e A área.
+
+<iframe src="https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_en.html" width="600" height="400" scrolling="no" allowfullscreen></iframe>
+
 $^~$
 
 
@@ -356,15 +362,30 @@ Os cabos são suspensos por torres bem altas para a segurança das pessoas e ve�
 
 $~$
 
+**EXTRA!**
+O vídeo a seguir ilustra como funciona a rede de distribuição de energia elétrica. 
+
+Obs.: O vídeo tem cerca de 2 minutos e está em inglês, mas é bem interessante e vale a pena conferir!
 
 
-
-## Simulação
-
-
-<iframe src="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjOCmC0YQTAVgHSLABngDjANgOzqHzzq4gDM+4pIi6dMcAUGPhGNuPuRVgCzdyDXMnTiJkyWBhZK4kLkHpmAJxpy25LAy0hdKgO4gdIeP11dzDI3U5C6-QXttp4Zi48HX9arw8QnDxsQQmYANxMGH1MXcEVdXABOZEJEXHh8fgF8dmVwVEJ8JNwKeAIk7JLhMQpmAHNKAWCm73T9X0b+Mpbu9yRhTrt+zzczdptWdhA+gPs4mWg5CgUlXwBnVodZuIYAMwBDABt1yGYAe0VxwYskpMpadGQ5aKu6y8Rrjtv72ORyBB0SjMIA" width="800" height="400" scrolling="no" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F6YW8h8cML4?start=7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+$~$
+
+
+## Simulações
+Na simulação abaixo, é possível visualizar um simples circuito de um interruptor de luz no qual os fios são tratados como linhas de transmissão.
+
+Para ver outras simulações interessantes relacionadas à Linhas de Transmissão, selecione na barra de menu superior "Circuits", e depois procure por "Transmission Lines". Existem outras 9 simulações além dessa, que ajudam a ilustrar os conceitos discutidos acima.
+
+
+<iframe src="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjOCmC0YQTAVgHSLABngDjANgOzqHzzq4gDM+4pIi6dMcAUGPhGNuPuRVgCzdyDXMnTiJkyWBhZK4kLkHpmAJxpy25LAy0hdKgO4gdIeP11dzDI3U5C6-QXttp4Zi48HX9arw8QnDxsQQmYANxMGH1MXcEVdXABOZEJEXHh8fgF8dmVwVEJ8JNwKeAIk7JLhMQpmAHNKAWCm73T9X0b+Mpbu9yRhTrt+zzczdptWdhA+gPs4mWg5CgUlXwBnVodZuIYAMwBDABt1yGYAe0VxwYskpMpadGQ5aKu6y8Rrjtv72ORyBB0SjMIA" width="600" height="400" scrolling="no" allowfullscreen></iframe>
+
+
+Nessa outra simulação, podemos ver o gráfico com o comportamento da voltagem ao passar pelas linhas de transmissão, clicando no botão 'play' e em seguida em 'grapher' ou 'split'.
+
+<iframe width="600" height="400" src="https://www.multisim.com/content/NAqsGxwEk6fG2THQkjJbJb/transmission-lines/open"></iframe>
 
 
 $~$
@@ -385,6 +406,4 @@ $~$
 6. ENSINO DE FÍSICA ONLINE - USP. Disponível em: <http://efisica.if.usp.br/eletricidade/basico/termo/intro/> Acesso em: 20 de fevereiro de 2021. 
 
 7. EBANATAW. "O caminho da Eletricidade". Publicado em 20 de junho de 2001. Disponível em: <http://www.ebanataw.com.br/roberto/energia/ener18.htm> Acesso em: 24 de fevereiro de 2021.
-
-
 
