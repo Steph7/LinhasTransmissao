@@ -375,6 +375,9 @@ $~$
 
 
 ## Simulações
+
+**Simulação 1**
+
 Na simulação abaixo, é possível visualizar um simples circuito de um interruptor de luz no qual os fios são tratados como linhas de transmissão.
 
 Para ver outras simulações interessantes relacionadas à Linhas de Transmissão, selecione na barra de menu superior "Circuits", e depois procure por "Transmission Lines". Existem outras 9 simulações além dessa, que ajudam a ilustrar os conceitos discutidos acima.
@@ -382,6 +385,9 @@ Para ver outras simulações interessantes relacionadas à Linhas de Transmissã
 
 <iframe src="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjOCmC0YQTAVgHSLABngDjANgOzqHzzq4gDM+4pIi6dMcAUGPhGNuPuRVgCzdyDXMnTiJkyWBhZK4kLkHpmAJxpy25LAy0hdKgO4gdIeP11dzDI3U5C6-QXttp4Zi48HX9arw8QnDxsQQmYANxMGH1MXcEVdXABOZEJEXHh8fgF8dmVwVEJ8JNwKeAIk7JLhMQpmAHNKAWCm73T9X0b+Mpbu9yRhTrt+zzczdptWdhA+gPs4mWg5CgUlXwBnVodZuIYAMwBDABt1yGYAe0VxwYskpMpadGQ5aKu6y8Rrjtv72ORyBB0SjMIA" width="600" height="400" scrolling="no" allowfullscreen></iframe>
 
+$~$
+
+**Simulação 2**
 
 Nessa outra simulação, podemos ver o gráfico com o comportamento da voltagem ao passar pelas linhas de transmissão, clicando no botão 'play' e em seguida em 'grapher' ou 'split'.
 
