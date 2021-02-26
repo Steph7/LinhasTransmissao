@@ -345,15 +345,16 @@ $~$
 
 # Linhas de Transmissão 
 
-Linha de transmissão é um sistema utilizado para transmissão de energia. Guiada de uma fonte geradora para uma carga consumidora, podendo ser uma guia de onda, um cabo coaxial ou fios paralelos ou torcidos, sendo a forma mais utilizada para o transporte de energia elétrica que é uma transmissão de alta potência, geralmente usando corrente alternada. 
+Linha de transmissão é um sistema utilizado para transmissão de energia. Guiada de uma fonte geradora para uma carga consumidora, podendo ser uma guia de onda, um cabo coaxial ou fios paralelos ou torcidos. Cada linha Transmissão é composta de 3 fases identificadas pelas letras A, B e V que significam Azul, Branca e Vermelha, que são as 3 fases da corrente trifásica. 
+
+A tensão de transmissão é elevada para diminuir as perdas pelo efeito Joule (o cabo esquenta pela passagem da eletricidade). Quanto mais alta a tensão, menor serão as perdas. 
+
+A linha entre Itaipu e Tijuco Preto tem um comprimento de 700 quilômetros e a tensão é de 750.000 Volts. Mas quando chegamos próximos a centros urbanos não é seguro se operar com tensões tão elevadas. Então as linhas operam com tensão de 230.000 Volts próximo as cidades. Dentro da cidade a tensão é menor ainda. Podendo ser em 138.000 Volts ou 69.000 Volts. 
+
+Os cabos são suspensos por torres bem altas para a segurança das pessoas e veículos que passam debaixo das linhas. As linhas formam uma "barriga" por causa do seu peso e por medidas de segurança. As torres da travessia do rio Tocantins em Tucuruí, chegam a medir 116 metros de altura. Sendo essas torres normalmente pintadas para auxiliar na navegação aérea. 
+
 
 $~$
-
-<center>
-<a href = "https://images.app.goo.gl/f42MW5bQs8S96SdG6">
-![](images/linhas-transmissao.gif){width=25%}
-</a>
-</center>
 
 
 
